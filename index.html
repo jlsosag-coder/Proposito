@@ -14,7 +14,7 @@
   <title>Descubre tu Propósito</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
@@ -26,7 +26,7 @@
     </div>
     <div class="progress-wrap">
       <div class="progress-steps" id="progressDots"></div>
-      <p class="progress-label" id="progressLabel">Herramienta 1 de 5</p>
+      <p class="progress-label" id="progressLabel">Proceso de propósito</p>
     </div>
     <div id="stepsContainer"></div>
     <div class="nav" id="navBar">
@@ -42,6 +42,8 @@
     <button class="install-close" onclick="document.getElementById('installBanner').classList.add('hidden')">✕</button>
   </div>
 
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

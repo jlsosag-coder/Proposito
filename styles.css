@@ -226,3 +226,29 @@ textarea::placeholder{color:var(--texto3);}
   .result-card{padding:26px 18px;}
   .result-purpose{font-size:17px;}
 }
+
+/* ── Name input ── */
+input[type="text"]{
+  width:100%;
+  border:1px solid var(--gris-borde);
+  border-radius:10px;
+  padding:13px 14px;
+  font-family:'Montserrat',sans-serif;
+  font-size:15px;font-weight:500;
+  color:var(--texto);
+  background:var(--blanco);
+  outline:none;
+  transition:border-color .2s;
+}
+input[type="text"]:focus{border-color:var(--azul);}
+input[type="text"]::placeholder{color:var(--texto3);font-weight:400;}
+
+/* ── PDF button ── */
+.btn-pdf{
+  background:var(--lima);color:var(--azul-dark);
+  border:none;padding:14px;border-radius:11px;
+  font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;
+  cursor:pointer;transition:background .15s;
+  letter-spacing:.02em;
+}
+.btn-pdf:hover{background:#c9e848;}
