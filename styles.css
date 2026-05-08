@@ -16,7 +16,7 @@
 
 html{scroll-behavior:smooth;}
 body{
-  font-family:'DM Sans',sans-serif;
+  font-family:'Montserrat',sans-serif;
   background:var(--blanco);
   color:var(--texto);
   min-height:100vh;
@@ -35,7 +35,7 @@ body{
   color:var(--lima);font-weight:500;margin-bottom:12px;
 }
 .header-title{
-  font-family:'Playfair Display',serif;font-size:30px;
+  font-family:'Montserrat',sans-serif;font-size:26px;font-weight:600;letter-spacing:-.02em;
   color:#ffffff;line-height:1.2;margin-bottom:10px;
 }
 .header-sub{font-size:14px;color:rgba(255,255,255,.65);line-height:1.7;}
@@ -72,7 +72,7 @@ body{
   color:var(--azul);font-weight:500;margin-bottom:5px;
 }
 .step-title{
-  font-family:'Playfair Display',serif;font-size:21px;
+  font-family:'Montserrat',sans-serif;font-size:19px;font-weight:600;letter-spacing:-.01em;
   color:var(--texto);margin-bottom:7px;
 }
 .step-desc{font-size:14px;color:var(--texto2);line-height:1.6;}
@@ -104,7 +104,7 @@ textarea{
   border:1px solid var(--gris-borde);
   border-radius:10px;
   padding:11px 13px;
-  font-family:'DM Sans',sans-serif;font-size:14px;
+  font-family:'Montserrat',sans-serif;font-size:14px;
   color:var(--texto);
   background:var(--blanco);
   resize:none;min-height:88px;
@@ -122,7 +122,7 @@ textarea::placeholder{color:var(--texto3);}
 }
 .btn{
   flex:1;padding:14px;border-radius:12px;
-  font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;
+  font-family:'Montserrat',sans-serif;font-size:14px;font-weight:500;
   cursor:pointer;transition:all .15s;border:none;
 }
 .btn-back{background:var(--gris-claro);color:var(--texto2);}
@@ -142,12 +142,12 @@ textarea::placeholder{color:var(--texto3);}
   color:var(--lima);margin-bottom:14px;
 }
 .result-quote-mark{
-  font-family:'Playfair Display',serif;font-size:50px;
+  font-family:'Montserrat',sans-serif;font-size:48px;font-weight:300;
   color:var(--lima);line-height:.8;margin-bottom:10px;
 }
 .result-purpose{
-  font-family:'Playfair Display',serif;font-size:20px;
-  line-height:1.5;color:#ffffff;margin-bottom:22px;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-size:18px;font-weight:500;letter-spacing:-.01em;
+  line-height:1.5;color:#ffffff;margin-bottom:22px;
 }
 .result-divider{height:1px;background:rgba(255,255,255,.15);margin:18px 0;}
 .result-section{margin-bottom:16px;}
@@ -176,14 +176,14 @@ textarea::placeholder{color:var(--texto3);}
 .btn-share{
   background:var(--lima);color:var(--azul-dark);
   border:none;padding:13px;border-radius:11px;
-  font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;
+  font-family:'Montserrat',sans-serif;font-size:14px;font-weight:500;
   cursor:pointer;transition:background .15s;
 }
 .btn-share:hover{background:#c9e848;}
 .btn-restart{
   background:rgba(255,255,255,.12);color:#fff;
   border:1px solid rgba(255,255,255,.2);padding:12px;
-  border-radius:11px;font-family:'DM Sans',sans-serif;
+  border-radius:11px;font-family:'Montserrat',sans-serif;
   font-size:14px;font-weight:500;cursor:pointer;transition:background .15s;
 }
 .btn-restart:hover{background:rgba(255,255,255,.2);}
@@ -210,7 +210,7 @@ textarea::placeholder{color:var(--texto3);}
   background:var(--lima);color:var(--azul-dark);border:none;
   padding:8px 18px;border-radius:8px;font-size:13px;
   font-weight:500;cursor:pointer;white-space:nowrap;
-  font-family:'DM Sans',sans-serif;
+  font-family:'Montserrat',sans-serif;
 }
 .install-close{
   background:none;border:none;color:rgba(255,255,255,.5);
